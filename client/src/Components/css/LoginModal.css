@@ -1,0 +1,57 @@
+/* LoginModal.css */
+.custom-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    /* Adjust the maximum width as needed */
+}
+
+.sub-btn {
+    margin-top: 5%;
+    background: transparent;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+
+.email-container {
+    margin-bottom: 4px;
+}
+
+.password-container {}
+
+.form-container {
+
+    padding: 5%;
+}
+
+.custom-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent overlay */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .custom-modal {
+        max-width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Reduce maximum width for smaller screens */
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .email {}
+
+    .pass {}
+}

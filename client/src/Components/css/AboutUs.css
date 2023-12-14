@@ -1,0 +1,66 @@
+@import '../constants/font.css';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Brand {
+    font-weight: bold;
+    font-family: 'BlackOpsOne';
+    font-size: 22px;
+}
+
+.Brand-Beauty {
+    font-family: 'BlackOpsOne';
+    font-size: 16px;
+    margin-left: 160px;
+}
+
+.About-text {
+    font-size: 20px;
+    font-family: 'Play';
+    text-align: left;
+}
+
+.Bon {
+    font-size: 20px;
+    font-family: 'BonVivant';
+}
+
+.Bon2 {
+    font-size: 20px;
+    font-family: 'BonVivantBold';
+}
+
+
+
+.Arquitecta {
+    font-size: 20px;
+    font-family: 'Arquitecta';
+}
+
+.Play {
+    font-size: 20px;
+    font-family: 'Play';
+}
+
+.PlayBold {
+    font-size: 20px;
+    font-family: 'PlayBold';
+}
+
+.Coconat {
+    font-size: 20px;
+    font-family: 'Coconat';
+}
+
+.CoconatBold {
+    font-size: 20px;
+    font-family: 'CoconatBold';
+}

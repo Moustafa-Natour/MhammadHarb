@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Arquitecta';
+    src: local('Arquitecta'),
+        url('./fonts/Arquitecta.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'Coconat';
+    src: local('Coconat'),
+        url('./fonts/CoconatRegular400.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'CoconatBold';
+    src: local('CoconatBold'),
+        url('./fonts/CoconatBoldExt400.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Play';
+    src: local('Play'),
+        url('./fonts/Play-Regular.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'PlayBold';
+    src: local('PlayBold'),
+        url('./fonts/Play-Bold.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'BlackOpsOne';
+    src: local('BlackOpsOne'),
+        url('./fonts/BlackOpsOne-Regular.ttf') format('TrueType');
+}
+
+
+@font-face {
+    font-family: 'BonVivantBold';
+    src: local('BonVivantBold'),
+
+        url('./fonts/BonVivant-Regular.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'BonVivant';
+    src: local('BonVivant'),
+        url('./fonts/BonVivant-Regular.ttf') format('TrueType'),
+
+}

@@ -1,0 +1,31 @@
+@import './Components/constants/Colors.css';
+
+.App-main {
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  @media (max-width: 600px) {
+    margin-top: 12.5%;
+    margin-bottom: 12.5%;
+  }
+}
+
+.calendar-container {
+  width: 92.5vw;
+  height: 60vh;
+  margin: 0 auto;
+  background-color: var(--color-background);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  padding: 2vw;
+  justify-content: center;
+  margin-top: 0vh;
+}
+
+.event-details {
+  margin-top: 1vh;
+  padding: 0.5vh;
+  background-color: var(--color-secondary);
+  color: white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  width: 90vw;
+}

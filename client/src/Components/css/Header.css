@@ -1,0 +1,6 @@
+@import '../constants/Colors.css';
+@import '../constants/font.css';
+
+.icon-links {
+    color: inherit;
+}

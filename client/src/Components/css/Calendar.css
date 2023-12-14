@@ -1,0 +1,39 @@
+@import '../constants/Colors.css';
+
+
+
+.rbc-header {
+    background: var(--color-tertiary);
+    color: var(--color-background);
+    font-weight: bold;
+    padding: 0%;
+}
+
+.rbc-event {
+    padding: 0% !important;
+    font-size: 100%;
+    margin-left: .25vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.rbc-time-slot {
+    background-color: var(--color-background) !important;
+}
+
+.rbc-day-slot {
+    width: 100% !important;
+}
+
+.rbc-background-event {
+    width: 100% !important;
+}
+
+.rbc-event-container {
+    width: 100% !important;
+}
+
+.rbc-event-label {
+    display: none;
+}
