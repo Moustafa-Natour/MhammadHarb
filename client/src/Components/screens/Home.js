@@ -15,11 +15,18 @@ const Home = () => {
     const [updateUI, setUpdateUI] = useState(false);
 
     useEffect(() => {
-        axios.get(`${baseURL}/getImages`)
-            .then((res) => {
-                setData(res.data);
-            });
-    }, [updateUI]);
+        // Fetch data only once when the component mounts
+        const fetchData = async () => {
+            try {
+                const response = await axios.get(`${baseURL}/getImages`);
+                setData(response.data);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+
+        fetchData();
+    }, []);
 
     const updateMode = (id, text) => {
         console.log(id, " cap: ", text);
