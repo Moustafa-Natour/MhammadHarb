@@ -19,12 +19,12 @@ app.use(cors(corsOptions));
 // Routes & MongoDb
 app.use("/api", imageRoutes, userRoutes, bookingRoutes);
 const dbOptions = { useNewUrlParser: true, useUnifiedTopology: true }
-// mongoose.connect(process.env.DB_URI, dbOptions)
-//     .then(() => console.log('Mongo Database Successfully Connected'))
-//     .catch(err => console.log(err));
+mongoose.connect(process.env.DB_URI, dbOptions)
+    .then(() => console.log('Mongo Database Successfully Connected'))
+    .catch(err => console.log(err));
 const port = process.env.PORT;
 
 
 const server = app.listen(port, () => {
-    console.log("Server is runing on : ", port);
+    console.log("Server is running on : ", port);
 })
