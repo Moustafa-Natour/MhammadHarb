@@ -55,7 +55,7 @@ const Carousal = ({ data }) => {
                                             display: 'block',
                                             overflow: 'hidden',
                                             width: '100%',
-                                            objectFit: 'cover',
+                                            objectFit: 'fill',
 
                                         }}
                                         src={step.imgUrl}
