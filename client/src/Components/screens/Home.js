@@ -34,14 +34,14 @@ const Home = () => {
     return (
         <>
             <Container fixed>
-                <Stack m={2} direction='row'>
+                {/* <Stack m={2} direction='row'>
                     <Typography align='center' variant='h6' sx={{ flexGrow: 1, fontFamily: 'BlackOpsOne', color: colors.custPrimary, }}>
                         Our Work
                     </Typography>
                     {isUserLoggedIn && <IconButton edge='end' sx={{ align: 'right' }}>
                         <AddImageModal setUpdateUI={setUpdateUI} />
                     </IconButton>}
-                </Stack>
+                </Stack> */}
                 <Carousal
                     data={data}
                 />
