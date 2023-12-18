@@ -25,7 +25,7 @@ const Carousal = ({ data }) => {
 
     return (
         <Container fixed>
-            <Box align='center' sx={{ maxHeight: 300, maxWidth: 450, marginLeft: "auto", marginRight: "auto" }} >
+            <Box align='center' sx={{ maxHeight: 100, maxWidth: 450, marginLeft: "auto", marginRight: "auto" }} >
                 <Paper
                     squares
                     elevation={22}
