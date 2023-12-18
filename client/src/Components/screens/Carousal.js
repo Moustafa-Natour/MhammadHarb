@@ -25,7 +25,7 @@ const Carousal = ({ data }) => {
 
     return (
         <Container fixed>
-            <Box align='center' sx={{ maxHeight: '15px', maxWidth: 450, marginLeft: "auto", marginRight: "auto" }} >
+            <Box align='center' sx={{ maxWidth: 450, marginLeft: "auto", marginRight: "auto" }} >
                 <Paper
                     squares
                     elevation={22}
@@ -50,6 +50,7 @@ const Carousal = ({ data }) => {
                                     <Box
                                         component="img"
                                         sx={{
+                                            maxHeight: '150px',
                                             height: '100%',
                                             display: 'block',
                                             overflow: 'hidden',
