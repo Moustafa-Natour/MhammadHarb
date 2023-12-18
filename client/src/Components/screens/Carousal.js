@@ -28,7 +28,7 @@ const Carousal = ({ data }) => {
             <Box align='center' sx={{ maxWidth: 450, marginLeft: "auto", marginRight: "auto" }} >
                 <Paper
                     squares
-                    elevation={22}
+                    elevation={28}
                     sx={{
                         alignItems: 'center',
                         p: 2,
@@ -50,12 +50,11 @@ const Carousal = ({ data }) => {
                                     <Box
                                         component="img"
                                         sx={{
-                                            maxHeight: '150px',
                                             height: '100%',
                                             display: 'block',
                                             overflow: 'hidden',
                                             width: '100%',
-                                            objectFit: 'fill',
+                                            objectFit: 'cover',
 
                                         }}
                                         src={step.imgUrl}
