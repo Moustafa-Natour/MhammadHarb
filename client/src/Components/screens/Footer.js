@@ -37,7 +37,7 @@ function Footer() {
     return (
         <MAppBar open={open} position='fixed' sx={{ top: 'auto', bottom: 0, backgroundColor: colors.custSecondary, alignItems: 'center' }} >
             <Toolbar>
-                <Container maxWidth="md" sx={{ mt: 2 }}>
+                <Container maxWidth="md" sx={{ my: 2 }}>
                     <Typography variant='body1' sx={{ fontFamily: 'PlayBold', color: colors.custPrimary, mt: 2 }}>
                         &copy; 2023 <Link style={{ color: 'inherit', fontFamily: 'BlackOpsOne', textDecoration: 'none' }} to="/">MHAMMAD HARB</Link> All rights reserved
                     </Typography>
