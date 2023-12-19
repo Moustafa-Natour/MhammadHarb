@@ -37,18 +37,20 @@ function Footer() {
     return (
         <MAppBar open={open} position='fixed' sx={{ top: 'auto', bottom: 0, backgroundColor: colors.custSecondary, alignItems: 'center' }} >
             <Toolbar>
-                <Typography variant='body1' sx={{ fontFamily: 'PlayBold', color: colors.custPrimary }}>
-                    &copy; 2023 <Link style={{ color: 'inherit', fontFamily: 'BlackOpsOne', textDecoration: 'none' }} to="/">MHAMMAD HARB</Link> All rights reserved
-                </Typography>
-                <Container maxWidth="md" sx={{ mt: 8 }}>
-                    <Stack direction="row" alignItems="center" spacing={4}>
-                        <InstagramIcon fontSize="large" sx={{ color: "#E1306C" }} />
-                        <YouTubeIcon fontSize="large" sx={{ color: "#FF0000" }} />
-                        <FacebookIcon color="primary" fontSize="large" />
-                        <TwitterIcon fontSize="large" sx={{ color: "#1DA1F2" }} />
-                        <PinterestIcon fontSize="large" sx={{ color: "#E60023" }} />
-                        <LinkedInIcon fontSize="large" color="primary" />
-                    </Stack>
+                <Container fixed>
+                    <Typography variant='body1' sx={{ fontFamily: 'PlayBold', color: colors.custPrimary }}>
+                        &copy; 2023 <Link style={{ color: 'inherit', fontFamily: 'BlackOpsOne', textDecoration: 'none' }} to="/">MHAMMAD HARB</Link> All rights reserved
+                    </Typography>
+                    <Container maxWidth="md" sx={{ mt: 8 }}>
+                        <Stack direction="row" alignItems="center" spacing={4}>
+                            <InstagramIcon fontSize="large" sx={{ color: "#E1306C" }} />
+                            <YouTubeIcon fontSize="large" sx={{ color: "#FF0000" }} />
+                            <FacebookIcon color="primary" fontSize="large" />
+                            <TwitterIcon fontSize="large" sx={{ color: "#1DA1F2" }} />
+                            <PinterestIcon fontSize="large" sx={{ color: "#E60023" }} />
+                            <LinkedInIcon fontSize="large" color="primary" />
+                        </Stack>
+                    </Container>
                 </Container>
             </Toolbar>
         </MAppBar>
