@@ -10,7 +10,7 @@ import colors from '../constants/colors';
 import { Link } from 'react-router-dom';
 import '../constants/font.css';
 import UserContext from './UserContext';
-import { AppBar, styled, useTheme, Toolbar, ButtonGroup, Stack, IconButton, Typography, Container, Stack } from '@mui/material';
+import { AppBar, styled, useTheme, Toolbar, ButtonGroup, Stack, IconButton, Typography, Container } from '@mui/material';
 const drawerWidth = 240;
 const MAppBar = styled(AppBar, {
     shouldForwardProp: (prop) => prop !== 'open',
